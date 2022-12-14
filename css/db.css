@@ -61,6 +61,19 @@ header li a:hover {
     padding: 6px;
 }
 
+/*------------ Footer -----------*/
+
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    background-color: #45a1ff;
+    color: #fff;
+    letter-spacing: 1.5px;
+
+}
+
+
 /*----------- Home Page Styles -----------*/
 
 #service-cards {
@@ -107,9 +120,10 @@ header li a:hover {
 }
 
 #sectTwo {
-    width: 100%;
-    height: 100vh;
+    width: 90%;
+    /*height: 100vh;*/
     font-size: 25px;
+    padding: 20px;
 
 }
 
@@ -118,7 +132,7 @@ header li a:hover {
     height: 50%;
 }
 
-#sectTwo p {
+*/ #sectTwo p {
     font-size: 25px;
 }
 
@@ -420,8 +434,8 @@ section {
 
 
     .images {
-        width: 90%;
-        height: 100%;
+        width: 90vw;
+        /*height: 100%;*/
 
     }
 
@@ -456,9 +470,11 @@ section {
     }
 
     #sectTwo #costpic {
-
-        object-fit: cover;
-        object-position: bottom;
+        display: none;
+        /*height: 40vh;
+            width: 40vw;
+            object-fit: cover;
+            object-position: bottom;*/
     }
 
     #sectTwo p {
@@ -755,8 +771,8 @@ section {
 
 
     .images {
-        width: 100vh;
-        height: 100vh;
+        width: 90vw;
+        height: 90vh;
         position: relative;
     }
 
@@ -771,8 +787,8 @@ section {
         inset: 0;
 
         transition: 2s;
-        width: 100vw;
-        height: 100vh;
+        width: 90vw;
+        height: 90vh;
 
     }
 
@@ -813,6 +829,7 @@ section {
         border-radius: 16px;
         background-color: #1ECBE1;
         line-height: 1.5;
+        padding: 20px;
 
 
     }
@@ -822,17 +839,17 @@ section {
         text-align: center;
         background-color: white;
 
-        margin: 0;
+        margin: 20px;
         padding: 60px;
     }
 
-    #sectTwo img {
-        display: block;
-        object-fit: cover;
-        object-position: bottom;
-        height: 60%;
-        width: 60%;
-        padding: 60px;
+    #sectTwo #costpic {
+        display: none;
+        /*object-fit: cover;
+            object-position: bottom;
+            /*height: 60%;
+            width: 60%;
+            padding: 60px;*/
 
     }
 
@@ -1066,9 +1083,9 @@ section {
 
         }
 */
-        .images {
-            /*width: 100vh;
-            height: 100vw;*/
+        #service-cards .container .images {
+            width: 90vw;
+            height: 90vh;
             padding: 20px;
             position: relative;
         }
@@ -1114,15 +1131,13 @@ section {
             display: flex;
             /*justify-content: space-evenly;*/
             background-color: white;
-            */
+            padding: 20px;
+            width: 90%;
         }
 
-        #sectTwo img {
 
-            object-fit: cover;
-            object-position: center;
-
-
+        #sectTwo #costpic {
+            display: none;
         }
 
         #sectTwo>h2 {
