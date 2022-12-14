@@ -61,7 +61,6 @@ header li a:hover {
     padding: 6px;
 }
 
-
 /*----------- Home Page Styles -----------*/
 
 #service-cards {
@@ -78,11 +77,19 @@ header li a:hover {
 .service-point {
     display: flex;
     flex-direction: column;
-
+    padding: 10px;
+    transition: 2s;
 }
 
 .service-point h2 {
     font-size: 32px;
+
+    border: solid .1px #1ECBE1;
+    border-radius: 12px;
+    padding: 20px;
+    margin: 5 auto;
+    box-shadow: 0 0 25px #000;
+    transform: translateX(-20%);
 
 }
 
@@ -90,7 +97,12 @@ header li a:hover {
     width: 100%;
     height: 200px;
     object-fit: cover;
-
+    object-position: center;
+    padding: 20px;
+    margin: 20px;
+    background-color: black;
+    border-radius: 12px;
+    box-shadow: 0 0 1px #000;
 }
 
 #sectTwo {
@@ -275,9 +287,336 @@ section {
     font-size: 25px;
 }
 
+/* End of Mobile Size ********************************************************************************************************************
+*/
 /*--------- Landscape screens -------*/
 
-@media screen and (min-width:400px) {}
+@media screen and (min-width:400px) {
+
+    /*--------- General Styles for mobile --------*/
+    body {
+        margin: 0;
+        padding: 0;
+    }
+
+
+    /* ----------- Header Styles ---------------*/
+    #logo {
+        margin: 0;
+        /*min-width: 100vw;*/
+    }
+
+    img {
+        height: 100%;
+        width: 100%;
+    }
+
+    header li {
+        display: block;
+        margin: 20px;
+        text-align: center;
+
+    }
+
+    header li a {
+        text-decoration: none;
+        padding: 20px;
+        font-size: 25px;
+
+    }
+
+    header li a:hover {
+
+        font-size: 2.5rem;
+        color: #1EE196;
+        padding-bottom: 20px;
+        background-color: rgb(151, 147, 243);
+        border-radius: 9px;
+        margin-bottom: 60px;
+        width: 50%;
+    }
+
+    #header-image {
+        /*top: 10px;*/
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+
+    #header-image img {
+        width: 100vw;
+    }
+
+    #image-text {
+        color: #fff;
+        margin-top: 0;
+        text-align: center;
+        font-size: 2.5em;
+        background-color: #1ECBE1;
+        border: solid 4px #1ee196;
+        padding: 6px;
+    }
+
+
+    /*----------- Home Page Styles -----------*/
+    /*
+/*----------- Home Page Styles ----------------*/
+
+
+    #service-cards {
+        text-align: center;
+        margin: 40px;
+    }
+
+
+
+    .images {
+        width: 100vh;
+        height: 100vh;
+        position: relative;
+    }
+
+    #service-cards h1 {
+        font-size: 36px;
+        padding-bottom: 22px;
+        border-bottom: 2px dashed lightgray;
+    }
+
+    .service-point {
+        display: flex;
+        flex-direction: column;
+
+        /*
+    justify-content: space-around;
+    padding: 10px;
+    position: absolute;
+    inset: 0;
+
+    transition: 2s;
+    width: 100vw;
+    height: 100vh;
+    */
+
+    }
+
+    .service-point h2 {
+        font-size: 32px;
+        /*
+    border: solid 18px #1ECBE1;
+    border-radius: 12px;
+    padding: 20px;
+    margin: 0px;
+    width: 360px;
+    height: 360px;
+    align-self: center;
+    box-shadow: 0 0 40px #000;
+
+    transform: translateX(-20%);
+    */
+
+    }
+
+    .service-point img {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+
+
+        /*
+    width: 360px;
+    height: 360px;
+    object-fit: cover;
+    object-position: center;
+    padding: 20px;
+    margin: 20px;
+    background-color: black;
+    border-radius: 12px;
+    box-shadow: 0 0 40px #000;
+    */
+
+    }
+
+    #sectTwo {
+        width: 100%;
+        height: 100vh;
+        font-size: 25px;
+
+    }
+
+    #sectTwo #costpic {
+        width: 100%;
+        height: 50%;
+    }
+
+    #sectTwo p {
+        font-size: 25px;
+    }
+
+    /*------------- Services Page ----------------*/
+    #servOne {
+        text-align: center;
+        height: 50vh;
+    }
+
+    #servOne h2 {
+        font-size: 36px;
+    }
+
+    #servOne ul li {
+
+        display: block;
+        text-decoration: none;
+        padding: 6px;
+        font-size: 25px;
+        line-height: 2;
+
+    }
+
+    .estimate {
+        background-color: #1ECBE1;
+        height: 60vh;
+        text-align: center;
+    }
+
+    .estimate h2 {
+        margin-top: 20px;
+        margin-bottom: 0;
+        font-size: 36px;
+    }
+
+    .estimate form {
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .estimate form label {
+
+        padding: 10px;
+    }
+
+    .estimate form input {
+
+        padding: 10px;
+    }
+
+    .estimate form .estBtn {
+        padding: 6px;
+        margin-top: 23px;
+        font-size: 18px;
+    }
+
+    #servThree {
+        text-align: center;
+        height: 50vh;
+    }
+
+    #servThree h2 {
+        font-size: 36px;
+    }
+
+    #servThree ul li {
+
+        display: block;
+        text-decoration: none;
+        padding: 6px;
+        font-size: 25px;
+        line-height: 2;
+
+    }
+
+
+    #servFour {
+        text-align: center;
+        height: 40vh;
+        background-color: #1ECBE1;
+
+    }
+
+    #servFour h2 {
+        font-size: 36px;
+    }
+
+    #servFour ul li {
+
+        display: block;
+        text-decoration: none;
+        padding: 6px;
+        font-size: 25px;
+        line-height: 2;
+
+    }
+
+
+
+
+    /*----------- Accordian Section of the Contact Page -----------------*/
+    section {
+        min-height: 100vh;
+        width: 90%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #1ECBE1;
+        color: white;
+        padding: 15px;
+        text-align: center;
+    }
+
+    .title {
+        margin: 2rem 0rem;
+        font-size: 36px;
+    }
+
+    .faq {
+        max-width: 700px;
+        margin-top: 2rem;
+        padding-bottom: 1rem;
+        border-bottom: 2px solid #fff;
+        cursor: pointer;
+    }
+
+    .question {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .question h3 {
+        font-size: 1.8rem;
+    }
+
+    .answer {
+        max-height: 0;
+        overflow: hidden;
+        transition: 1.4s ease;
+    }
+
+    .answer p {
+        padding-top: 1rem;
+        line-height: 1.6;
+        font-size: 1.4rem;
+    }
+
+    .faq.active .answer {
+        max-height: 300px;
+    }
+
+    /*----------- About Page ------------*/
+
+    #about {
+        padding: 20px;
+
+    }
+
+    #about h2 {
+        font-size: 36px;
+    }
+
+    #about p {
+        font-size: 25px;
+    }
+}
 
 
 

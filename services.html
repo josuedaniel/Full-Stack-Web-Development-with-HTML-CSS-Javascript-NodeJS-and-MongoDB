@@ -29,29 +29,23 @@
             </nav>
         </div>
 
-        <!-- Header for a large hero area 
-    <div id="header-image">
-        <img src="images/dannyboypaintinghome.png" alt="housepainting" />
-        <h2 id="image-text">
-            Services
-        </h2>
-    </div> -->
+        <!-- Header for a large hero area -->
+        <div id="header-image">
+            <img src="images/dannyboypaintinghome.png" alt="housepainting" />
+            <h2 id="image-text">
+                Services
+            </h2>
+        </div>
     </header>
+
+    <p id="test">Get your free estimate</p>
+    <h2 id="result"></h2>
     <div class="estimate">
-        <p id="test">Get your free estimate</p>
-
         <form>
-
-            <label for="fname">First Name</label>
-            <input type="text" id="fname" name="firstname" placeholder="Your name...">
-
-            <label for="lname">Last Name</label>
-            <input type="text" id="lname" name="lastname" placeholder="Your last name...">
-
             <label for="sqft">Enter Square Footage: </label>
-            <input type="int" id="sqft" name="squarefeet" placeholder="Enter square footage">
+            <input type="number" id="sqft" name="squarefeet" placeholder="Enter square footage">
             <br>
-            <button id="estBtn" onclick="estIt()">Submit</button>
+            <input type="submit" id="estBtn" value="Submit" onclick="estIt(); return false;"></input>
         </form>
     </div>
     <div class="wrapper">
