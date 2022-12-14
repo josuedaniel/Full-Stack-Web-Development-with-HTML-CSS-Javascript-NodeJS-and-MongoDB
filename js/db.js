@@ -1,13 +1,22 @@
 /* -------- Services Free Estimate Form ---------- */
 
-
 function estIt() {
+    // create the const yourest to store the div #result
     const yourest = document.getElementById('result');
+
+    // Create the variable p that holds the input value given by the user
     let p = document.getElementById('sqft').value;
+
+    // Turn that p variable into a number
     const pnum = Number(p);
+
+    // Create a variable submitest that captures the button click input from the user
     let submitest = document.getElementById('estBtn');
 
+    // create a variable r that represents the average cost per square foot to paint a home
     let r = 3;
+
+    // Create a variable theEst that will become the output onto the page
     let theEst = 'The Average cost of painting a home that size is $' + pnum * r;
 
     //return result;

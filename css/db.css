@@ -125,7 +125,6 @@ header li a:hover {
 /*------------- Services Page ----------------*/
 #servOne {
     text-align: center;
-    height: 50vh;
 }
 
 #servOne h2 {
@@ -133,7 +132,6 @@ header li a:hover {
 }
 
 #servOne ul li {
-
     display: block;
     text-decoration: none;
     padding: 6px;
@@ -143,14 +141,19 @@ header li a:hover {
 }
 
 .estimate {
-    background-color: #1ECBE1;
-    height: 60vh;
+    background-color: #50def0;
     text-align: center;
 }
+
 
 .estimate h2 {
     margin-top: 20px;
     margin-bottom: 0;
+    font-size: 36px;
+}
+
+#sv {
+    padding-left: 10px;
     font-size: 36px;
 }
 
@@ -161,13 +164,11 @@ header li a:hover {
 }
 
 .estimate form label {
-
     padding: 10px;
 }
 
 .estimate form input {
-
-    padding: 10px;
+    padding: 20px;
 }
 
 .estimate form .estBtn {
@@ -178,7 +179,7 @@ header li a:hover {
 
 #servThree {
     text-align: center;
-    height: 50vh;
+    padding: 16px;
 }
 
 #servThree h2 {
@@ -189,18 +190,17 @@ header li a:hover {
 
     display: block;
     text-decoration: none;
-    padding: 6px;
+    padding: 3px;
     font-size: 25px;
-    line-height: 2;
+    line-height: 1.8;
 
 }
 
 
 #servFour {
     text-align: center;
-    height: 40vh;
-    background-color: #1ECBE1;
-
+    background-color: #50def0;
+    padding: 3px;
 }
 
 #servFour h2 {
@@ -208,7 +208,6 @@ header li a:hover {
 }
 
 #servFour ul li {
-
     display: block;
     text-decoration: none;
     padding: 6px;
