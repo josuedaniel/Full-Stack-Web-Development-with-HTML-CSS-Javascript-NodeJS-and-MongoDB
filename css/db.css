@@ -217,7 +217,35 @@ header li a:hover {
 }
 
 
+/*--------- Contact Form on Contact Page --------------- */
 
+#contact {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.form-field {
+    padding: 10px;
+    margin: 0 auto;
+    font-size: 30px;
+
+}
+
+.form-field input {
+    padding: 12px;
+    font-size: 20px;
+}
+
+#snup {
+    padding: 12px;
+    font-size: 25px;
+    color: white;
+    background-color: #1E6AE1;
+    border-radius: 16px;
+
+}
 
 /*----------- Accordian Section of the Contact Page -----------------*/
 section {
