@@ -43,6 +43,12 @@ faqs.forEach((faq) => {
     });
 });
 
+
+
+/*------- Home Page Slider ---------------- */
+/* Slider based off the youtube tutorial Automatic Image Slider Using Javascript by Ranjan-Beginners Guide. This will provide slider functionality for the area directly beneath the header element on db.html. It was challenging to understand how to grab each div service-point and apply the styling required for the slider to work without changing other parts of the sites unintentionally. Also I had to be extra careful with my css and making sure it did not conflict 
+
+*/
 // Set first index to 0
 var firstIndex = 0;
 
@@ -305,9 +311,6 @@ form.addEventListener('input', debounce(function (e) {
 
 
 
-/*------- Home Page Slider ---------------- */
-/* Slider based off the youtube tutorial Automatic Image Slider Using Javascript by Ranjan-Beginners Guide. This will provide slider functionality for the area directly beneath the header element on db.html. It was challenging to understand how to grab each div service-point and apply the styling required for the slider to work without changing other parts of the sites unintentionally. Also I had to be extra careful with my css and making sure it did not conflict 
 
-*/
 
 

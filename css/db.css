@@ -913,11 +913,9 @@ section {
     .estimate {
         display: flex;
         flex-direction: column;
-        height: 50vh;
-
+        padding: 30px 200px 30px 200px;
         margin: 0 auto;
 
-        /*align-items: center;*/
         background-color: #1E6AE1;
 
     }
@@ -968,7 +966,7 @@ section {
 
         body {
             margin: 0;
-            background-color: pink;
+
         }
 
         #top-header {
@@ -977,6 +975,7 @@ section {
             justify-content: space-between;
         }
 
+        /*
         #logo {
             height: 200px;
 
@@ -985,7 +984,7 @@ section {
         #logo img {
             height: 200px;
         }
-
+*/
         header li {
             display: inline;
             margin: 20px;
@@ -995,7 +994,7 @@ section {
 
         header li a {
             text-decoration: none;
-            font-size: 2rem;
+            font-size: 3.5rem;
             color: #fff;
             padding: 20px;
             transition: .3 ease;
@@ -1005,29 +1004,30 @@ section {
 
         header li a:hover {
 
-            font-size: 2.5rem;
+            font-size: 4.5rem;
             color: #1EE196;
             padding-bottom: 20px;
             background-color: #fff;
             border-radius: 9px;
             margin-bottom: 60px;
+
         }
 
+        /*
         nav {
             display: flex;
             align-items: flex-end;
 
         }
-
+*/
         #header-image {
-            /*top: 10px;*/
             position: relative;
         }
 
 
         #header-image img {
             width: 100%;
-            height: auto;
+
         }
 
         #image-text {
@@ -1046,10 +1046,12 @@ section {
 
         }
 
+        /*
         h1 {
             font-size: 4.5rem;
         }
 
+        
         h2 {
             font-size: 3.5rem;
         }
@@ -1061,41 +1063,30 @@ section {
 
         #service-cards {
             text-align: center;
-            margin: 40px;
+
         }
-
-
-
+*/
         .images {
-            width: 100vh;
-            height: 100vh;
+            /*width: 100vh;
+            height: 100vw;*/
+            padding: 20px;
             position: relative;
         }
 
 
 
         .service-point {
-            /*display: flex;*/
-
-            justify-content: space-around;
-            padding: 10px;
-            position: absolute;
-            inset: 0;
-
             transition: 2s;
-            width: 100vw;
-            height: 100vh;
-
         }
 
         .service-point img {
             /*display: block;*/
-            width: 360px;
-            height: 360px;
+            /*width: 360px;
+            height: 360px;*/
             object-fit: cover;
             object-position: center;
-            padding: 20px;
-            margin: 20px;
+            /*padding: 20px;
+            margin: 20px;*/
             background-color: black;
             border-radius: 12px;
             box-shadow: 0 0 40px #000;
@@ -1121,28 +1112,32 @@ section {
 
         #sectTwo {
             display: flex;
-            justify-content: space-evenly;
-            background-color: #1ECBE1;
-
+            /*justify-content: space-evenly;*/
+            background-color: white;
+            */
         }
 
         #sectTwo img {
-            height: 60%;
-            width: 60%;
+
             object-fit: cover;
             object-position: center;
-            padding: 60px;
+
 
         }
 
-        #sectTwo h2 {
-            font-size: 2.5rem;
+        #sectTwo>h2 {
+            font-size: 46px;
             text-align: center;
+            background-color: #50def0;
+            color: white;
+            border-radius: 12px;
+            padding: 40px;
+            margin: 60px 20px;
+
+        }
+
+        #bk {
             background-color: white;
-            height: 100%;
-            width: 100%;
-            margin: 0;
-            padding: 60px;
         }
 
         #about {
@@ -1216,8 +1211,6 @@ section {
         .estimate {
             display: flex;
             flex-direction: column;
-            height: 50vh;
-
             margin: 0 auto;
 
             /*align-items: center;*/
@@ -1239,11 +1232,55 @@ section {
         color: #fff;
         font-size: 1.6rem;
         background-color: #1ECBE1;
-    
-    
-    
-    }*/
-            /*
+    */
+
+
+        }
+
+        /*----------- Project Page Styles ------------*/
+
+        #about {
+            padding: 20px;
+            box-shadow: 0px 10px 30px #1E6AE1;
+        }
+
+        #about h2 {
+            font-size: 36px;
+        }
+
+        #about p {
+            font-size: 25px;
+        }
+
+
+        .cont {
+            padding: 20px;
+            height: 50vh;
+        }
+
+        .cont h2 {
+            padding: 20px;
+            font-size: 36px;
+            text-align: center;
+        }
+
+        .cont p {
+            padding: 20px;
+            font-size: 25px;
+            text-align: center;
+        }
+
+        #second {
+            background-color: #50def0;
+            color: white;
+        }
+
+        #third {
+            background-color: #50def0;
+            color: white;
+        }
+
+        /*
     #test {
         width: 20px;
         height: 20px;
@@ -1251,7 +1288,7 @@ section {
         color: #fff;
     }
     */
-            /*
+        /*
     .estimate form input {
         padding: 4px;
         font-size: 16px;
@@ -1259,4 +1296,4 @@ section {
         margin: 6px;
     }*/
 
-        }
+    }
