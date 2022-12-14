@@ -1,0 +1,911 @@
+/*--------- General Styles for mobile --------*/
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* ----------- Header Styles ---------------*/
+#logo {
+    margin: 0;
+    /*min-width: 100vw;*/
+}
+
+img {
+    height: 100%;
+    width: 100%;
+}
+
+header li {
+    display: block;
+    margin: 20px;
+    text-align: center;
+
+}
+
+header li a {
+    text-decoration: none;
+    padding: 20px;
+    font-size: 25px;
+
+}
+
+header li a:hover {
+
+    font-size: 2.5rem;
+    color: #1EE196;
+    padding-bottom: 20px;
+    background-color: rgb(151, 147, 243);
+    border-radius: 9px;
+    margin-bottom: 60px;
+    width: 50%;
+}
+
+#header-image {
+    /*top: 10px;*/
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+#header-image img {
+    width: 100vw;
+}
+
+#image-text {
+    color: #fff;
+    margin-top: 0;
+    text-align: center;
+    font-size: 2.5em;
+    background-color: #1ECBE1;
+    border: solid 4px #1ee196;
+    padding: 6px;
+}
+
+
+/*----------- Home Page Styles -----------*/
+
+#service-cards {
+    text-align: center;
+
+}
+
+#service-cards h1 {
+    font-size: 36px;
+    padding-bottom: 22px;
+    border-bottom: 2px dashed lightgray;
+}
+
+.service-point {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.service-point h2 {
+    font-size: 32px;
+
+}
+
+.service-point img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+
+}
+
+#sectTwo {
+    width: 100%;
+    height: 100vh;
+    font-size: 25px;
+
+}
+
+#sectTwo #costpic {
+    width: 100%;
+    height: 50%;
+}
+
+#sectTwo p {
+    font-size: 25px;
+}
+
+/*------------- Services Page ----------------*/
+#servOne {
+    text-align: center;
+    height: 50vh;
+}
+
+#servOne h2 {
+    font-size: 36px;
+}
+
+#servOne ul li {
+
+    display: block;
+    text-decoration: none;
+    padding: 6px;
+    font-size: 25px;
+    line-height: 2;
+
+}
+
+.estimate {
+    background-color: #1ECBE1;
+    height: 60vh;
+    text-align: center;
+}
+
+.estimate h2 {
+    margin-top: 20px;
+    margin-bottom: 0;
+    font-size: 36px;
+}
+
+.estimate form {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.estimate form label {
+
+    padding: 10px;
+}
+
+.estimate form input {
+
+    padding: 10px;
+}
+
+.estimate form .estBtn {
+    padding: 6px;
+    margin-top: 23px;
+    font-size: 18px;
+}
+
+#servThree {
+    text-align: center;
+    height: 50vh;
+}
+
+#servThree h2 {
+    font-size: 36px;
+}
+
+#servThree ul li {
+
+    display: block;
+    text-decoration: none;
+    padding: 6px;
+    font-size: 25px;
+    line-height: 2;
+
+}
+
+
+#servFour {
+    text-align: center;
+    height: 40vh;
+    background-color: #1ECBE1;
+
+}
+
+#servFour h2 {
+    font-size: 36px;
+}
+
+#servFour ul li {
+
+    display: block;
+    text-decoration: none;
+    padding: 6px;
+    font-size: 25px;
+    line-height: 2;
+
+}
+
+
+
+
+/*----------- Accordian Section of the Contact Page -----------------*/
+section {
+    min-height: 100vh;
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #1ECBE1;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+.title {
+    margin: 2rem 0rem;
+    font-size: 36px;
+}
+
+.faq {
+    max-width: 700px;
+    margin-top: 2rem;
+    padding-bottom: 1rem;
+    border-bottom: 2px solid #fff;
+    cursor: pointer;
+}
+
+.question {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.question h3 {
+    font-size: 1.8rem;
+}
+
+.answer {
+    max-height: 0;
+    overflow: hidden;
+    transition: 1.4s ease;
+}
+
+.answer p {
+    padding-top: 1rem;
+    line-height: 1.6;
+    font-size: 1.4rem;
+}
+
+.faq.active .answer {
+    max-height: 300px;
+}
+
+/*----------- About Page ------------*/
+
+#about {
+    padding: 20px;
+
+}
+
+#about h2 {
+    font-size: 36px;
+}
+
+#about p {
+    font-size: 25px;
+}
+
+/*--------- Landscape screens -------*/
+
+@media screen and (min-width:400px) {}
+
+
+
+/*-----------Medium Sized Screens ----------*/
+@media screen and (min-width:700px) {
+
+    *::before,
+    *::after {
+        box-sizing: border-box;
+    }
+
+    body {
+        margin: 0;
+
+    }
+
+    /*------------- header Styles -----------*/
+    header {
+        display: block;
+
+    }
+
+    #top-header {
+        display: flex;
+        background-color: #1E6AE1;
+        height: 200px;
+        justify-content: space-between;
+
+    }
+
+
+
+    #logo img {
+        height: 200px;
+        width: 200px;
+    }
+
+    header li {
+        display: inline;
+        margin: 2px;
+        padding-left: 2px;
+        font-size: 25px;
+
+    }
+
+    header li a {
+        text-decoration: none;
+        font-size: 30px;
+        color: #fff;
+        padding: 15px;
+        transition: .3 ease;
+
+
+    }
+
+    header li a:hover {
+
+        font-size: 2.5rem;
+        color: #1EE196;
+        padding-bottom: 20px;
+        background-color: #fff;
+        border-radius: 9px;
+        margin-bottom: 60px;
+    }
+
+    nav {
+        display: flex;
+        align-items: flex-end;
+    }
+
+    ;
+
+
+
+    #header-image {
+        /*top: 10px;*/
+        position: relative;
+    }
+
+
+    #header-image img {
+        width: 100%;
+        height: auto;
+    }
+
+    #image-text {
+        position: absolute;
+        top: 45%;
+        left: 70%;
+        font-family: 'Roboto';
+        color: #fff;
+        transform: translate(-30%, -30%);
+        text-align: center;
+        font-size: 3rem;
+        background-color: #1ECBE1;
+        border: solid 20px #1ee196;
+        padding: 20px;
+
+
+    }
+
+    h1 {
+        font-size: 4.5rem;
+    }
+
+    h2 {
+        font-size: 3.5rem;
+    }
+
+    p {
+        font-size: 25px;
+        text-align: justify;
+    }
+
+    /*----------- Home Page Styles ----------------*/
+
+
+
+    #service-cards {
+        text-align: center;
+        margin: 40px;
+    }
+
+
+
+    .images {
+        width: 100vh;
+        height: 100vh;
+        position: relative;
+    }
+
+
+
+    .service-point {
+        /*display: flex;*/
+
+        justify-content: space-around;
+        padding: 10px;
+        position: absolute;
+        inset: 0;
+
+        transition: 2s;
+        width: 100vw;
+        height: 100vh;
+
+    }
+
+    .service-point img {
+        /*display: block;*/
+        width: 360px;
+        height: 360px;
+        object-fit: cover;
+        object-position: center;
+        padding: 20px;
+        margin: 20px;
+        background-color: black;
+        border-radius: 12px;
+        box-shadow: 0 0 40px #000;
+
+    }
+
+
+
+    .service-point h2 {
+        border: solid 18px #1ECBE1;
+        border-radius: 12px;
+        padding: 20px;
+        margin: 0px;
+        width: 360px;
+        height: 360px;
+        align-self: center;
+        box-shadow: 0 0 40px #000;
+
+        transform: translateX(-20%);
+    }
+
+    /*----------- Section Two of Home Page --------- */
+
+    #sectTwo {
+        display: flex;
+        flex-wrap: wrap;
+        border-radius: 16px;
+        background-color: #1ECBE1;
+        line-height: 1.5;
+
+
+    }
+
+    #sectTwo h2 {
+        font-size: 2.5rem;
+        text-align: center;
+        background-color: white;
+
+        margin: 0;
+        padding: 60px;
+    }
+
+    #sectTwo img {
+        display: block;
+        object-fit: cover;
+        object-position: bottom;
+        height: 60%;
+        width: 60%;
+        padding: 60px;
+
+    }
+
+    #sectTwo p {
+        padding: 0px 28px;
+    }
+
+
+    /*about page*/
+    #about {
+        padding: 40px;
+        text-align: center;
+        line-height: 1.5;
+    }
+
+    /*----------- Accordian Section of the Contact Page -----------------*/
+    section {
+        min-height: 100vh;
+        width: 80%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #1E6AE1;
+    }
+
+    .title {
+        margin: 2rem 0rem;
+    }
+
+    .faq {
+        max-width: 700px;
+        margin-top: 2rem;
+        padding-bottom: 1rem;
+        border-bottom: 2px solid #fff;
+        cursor: pointer;
+    }
+
+    .question {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .question h3 {
+        font-size: 1.8rem;
+    }
+
+    .answer {
+        max-height: 0;
+        overflow: hidden;
+        transition: 1.4s ease;
+    }
+
+    .answer p {
+        padding-top: 1rem;
+        line-height: 1.6;
+        font-size: 1.4rem;
+    }
+
+    .faq.active .answer {
+        max-height: 300px;
+    }
+
+
+    /*-----------------  Services page ----------------*/
+
+
+
+    .wrapper {
+        display: flex;
+        justify-content: space-around;
+        flex-flow: wrap;
+        margin: 20px 0px 0px 100px;
+    }
+
+
+    .estimate {
+        display: flex;
+        flex-direction: column;
+        height: 50vh;
+
+        margin: 0 auto;
+
+        /*align-items: center;*/
+        background-color: #1E6AE1;
+
+    }
+
+
+    .estimate form {
+        display: flex;
+        flex-direction: column;
+        /*
+    align-items: center;
+    justify-content: space-between;
+    line-height: 1.6;
+    margin: 2px;
+    padding: 2px;
+    border-bottom: 2px solid #fff;
+    color: #fff;
+    font-size: 1.6rem;
+    background-color: #1ECBE1;
+
+
+
+}*/
+        /*
+#test {
+    width: 20px;
+    height: 20px;
+    margin: 2px;
+    color: #fff;
+}
+*/
+        /*
+.estimate form input {
+    padding: 4px;
+    font-size: 16px;
+    width: 100%;
+    margin: 6px;
+}*/
+
+    }
+
+
+    @media screen and (min-width:1000px) {
+
+        *::before,
+        *::after {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            background-color: pink;
+        }
+
+        #top-header {
+            display: flex;
+            background-color: #1E6AE1;
+            justify-content: space-between;
+        }
+
+        #logo {
+            height: 200px;
+
+        }
+
+        #logo img {
+            height: 200px;
+        }
+
+        header li {
+            display: inline;
+            margin: 20px;
+            padding-left: 45px;
+
+        }
+
+        header li a {
+            text-decoration: none;
+            font-size: 2rem;
+            color: #fff;
+            padding: 20px;
+            transition: .3 ease;
+
+
+        }
+
+        header li a:hover {
+
+            font-size: 2.5rem;
+            color: #1EE196;
+            padding-bottom: 20px;
+            background-color: #fff;
+            border-radius: 9px;
+            margin-bottom: 60px;
+        }
+
+        nav {
+            display: flex;
+            align-items: flex-end;
+
+        }
+
+        #header-image {
+            /*top: 10px;*/
+            position: relative;
+        }
+
+
+        #header-image img {
+            width: 100%;
+            height: auto;
+        }
+
+        #image-text {
+            position: absolute;
+            top: 45%;
+            left: 70%;
+            font-family: 'Roboto';
+            color: #fff;
+            transform: translate(-30%, -30%);
+            text-align: center;
+            font-size: 3rem;
+            background-color: #1ECBE1;
+            border: solid 20px #1ee196;
+            padding: 20px;
+
+
+        }
+
+        h1 {
+            font-size: 4.5rem;
+        }
+
+        h2 {
+            font-size: 3.5rem;
+        }
+
+        p {
+            font-size: 22px;
+            text-align: justify;
+        }
+
+        #service-cards {
+            text-align: center;
+            margin: 40px;
+        }
+
+
+
+        .images {
+            width: 100vh;
+            height: 100vh;
+            position: relative;
+        }
+
+
+
+        .service-point {
+            /*display: flex;*/
+
+            justify-content: space-around;
+            padding: 10px;
+            position: absolute;
+            inset: 0;
+
+            transition: 2s;
+            width: 100vw;
+            height: 100vh;
+
+        }
+
+        .service-point img {
+            /*display: block;*/
+            width: 360px;
+            height: 360px;
+            object-fit: cover;
+            object-position: center;
+            padding: 20px;
+            margin: 20px;
+            background-color: black;
+            border-radius: 12px;
+            box-shadow: 0 0 40px #000;
+
+        }
+
+
+
+        .service-point h2 {
+            border: solid 18px #1ECBE1;
+            border-radius: 12px;
+            padding: 20px;
+            margin: 0px;
+            width: 360px;
+            height: 360px;
+            align-self: center;
+            box-shadow: 0 0 40px #000;
+
+            transform: translateX(-20%);
+        }
+
+        /*----------- Section Two of Home Page --------- */
+
+        #sectTwo {
+            display: flex;
+            justify-content: space-evenly;
+            background-color: #1ECBE1;
+
+        }
+
+        #sectTwo img {
+            height: 60%;
+            width: 60%;
+            object-fit: cover;
+            object-position: center;
+            padding: 60px;
+
+        }
+
+        #sectTwo h2 {
+            font-size: 2.5rem;
+            text-align: center;
+            background-color: white;
+            height: 100%;
+            width: 100%;
+            margin: 0;
+            padding: 60px;
+        }
+
+        #about {
+            padding: 40px;
+            text-align: center;
+            line-height: 1.5;
+        }
+
+        /*----------- Accordian Section of the Contact Page -----------------*/
+        section {
+            min-height: 100vh;
+            width: 80%;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: #1E6AE1;
+        }
+
+        .title {
+            margin: 2rem 0rem;
+        }
+
+        .faq {
+            max-width: 700px;
+            margin-top: 2rem;
+            padding-bottom: 1rem;
+            border-bottom: 2px solid #fff;
+            cursor: pointer;
+        }
+
+        .question {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .question h3 {
+            font-size: 1.8rem;
+        }
+
+        .answer {
+            max-height: 0;
+            overflow: hidden;
+            transition: 1.4s ease;
+        }
+
+        .answer p {
+            padding-top: 1rem;
+            line-height: 1.6;
+            font-size: 1.4rem;
+        }
+
+        .faq.active .answer {
+            max-height: 300px;
+        }
+
+
+        /*-----------------  Services page ----------------*/
+
+
+
+        .wrapper {
+            display: flex;
+            justify-content: space-around;
+            flex-flow: wrap;
+            margin: 20px 0px 0px 100px;
+        }
+
+
+        .estimate {
+            display: flex;
+            flex-direction: column;
+            height: 50vh;
+
+            margin: 0 auto;
+
+            /*align-items: center;*/
+            background-color: #1E6AE1;
+
+        }
+
+
+        .estimate form {
+            display: flex;
+            flex-direction: column;
+            /*
+        align-items: center;
+        justify-content: space-between;
+        line-height: 1.6;
+        margin: 2px;
+        padding: 2px;
+        border-bottom: 2px solid #fff;
+        color: #fff;
+        font-size: 1.6rem;
+        background-color: #1ECBE1;
+    
+    
+    
+    }*/
+            /*
+    #test {
+        width: 20px;
+        height: 20px;
+        margin: 2px;
+        color: #fff;
+    }
+    */
+            /*
+    .estimate form input {
+        padding: 4px;
+        font-size: 16px;
+        width: 100%;
+        margin: 6px;
+    }*/
+
+        }

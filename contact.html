@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Dannyboy Painting Services</title>
+    <link rel="stylesheet" href="/css/db.css" type="text/css">
+</head>
+
+<body>
+
+    <!--Main Header-->
+    <header>
+        <div id="top-header">
+            <!--Logo-->
+            <div id="logo">
+                <img src="images/dbplogo1.png" alt="Dannyboy Painting Services">
+            </div>
+
+            <!-- Navigation Menu-->
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="about.html">Projects</a></li>
+                    <li class="active"><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <!-- Header for a large hero area-->
+        <div id="header-image">
+            <img src="images/dannyboypaintinghome.png" alt="housepainting" />
+            <h2 id="image-text">
+                Contact Us!
+            </h2>
+        </div>
+    </header>
+
+
+
+
+    <div class="container">
+
+        <!-- Form element to hold our form fields -->
+        <form id="contact" class="form">
+            <h1>Contact Us</h1>
+
+            <!-- Form fields to take in information-->
+            <div class="form-field">
+                <label for="name">Name:</label>
+                <input type="text" name="name" id="name" autocomplete="off">
+                <small></small>
+            </div>
+
+
+            <div class="form-field">
+                <label for="email">Email:</label>
+                <input type="text" name="email" id="email" autocomplete="off">
+                <small></small>
+            </div>
+
+            <div class="form-field">
+                <label for="phone">Phone:</label>
+                <input type="tel" name="phone" id="phone" pattern="[0-9]{3}-[9-0]{2}-[0-9]{3}">
+                <small></small>
+            </div>
+
+            <div class="form-field">
+                <label for="zipcode">Zipcode:</label>
+                <input type="text" name="zipcode" id="zipcode" autocomplete="off">
+                <small></small>
+            </div>
+
+            <div class="form-field">
+                <label for="state">State:</label>
+                <input type="text" name="state" id="state" autocomplete="off">
+                <small></small>
+            </div>
+
+
+
+            <!-- Form field to submit the form -->
+            <div class="form-field">
+                <input type="submit" value="Sign Up">
+            </div>
+
+
+        </form>
+    </div>
+    <br><br>
+
+
+    <!-- JS Accordian-->
+    <section>
+        <h2 class="title">Frequently Asked Questions</h2>
+        <div class="faq">
+            <div class="question">
+                <h3>How does this javascript accordian work?</h3>
+            </div>
+            <div class="answer">
+                <p>A const is created that grabs the divs with the faq class. Then JS listens for whenever that div is
+                    clicked and, using the classList property, toggles the active class for whichever faq was clicked
+                    on. </p>
+            </div>
+        </div>
+
+        <div class="faq">
+            <div class="question">
+                <h3>What other classList properties exist?</h3>
+            </div>
+            <div class="answer">
+                <p>There are 3 common properties associated with classList. The add() property will add to your selected
+                    classr, remove() takes it away, and toggle() will add or remove it depending on its current state.
+                </p>
+            </div>
+        </div>
+
+        <div class="faq">
+            <div class="question">
+                <h3>Are there any challenges to working with classList?</h3>
+            </div>
+            <div class="answer">
+                <p>A const is created that grabs the div </p>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <script src="/js/db.js"></script>
+
+</body>
+
+</html>
+
+
+<!--
+
+    Youtube tutorial:  
+    Check Javascript DOM Manipulation: full course for beginners at 1:45:00 for modal script ideas
+Site colors: 
+
+#1ECBE1
+
+#1E6AE1
+
+#1EE196
+
+-->
