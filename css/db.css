@@ -4,11 +4,32 @@ body {
     padding: 0;
 }
 
+/*------- pop up ----------------*/
+
+#formPop {
+    padding: 20px;
+    height: 89vh;
+}
+
+#formPop #pup {
+    background-color: #1E6AE1;
+    color: white;
+    padding: 18px;
+    font-size: 36px;
+
+}
+
+#formPop h2 {
+    font-size: 30px;
+}
+
+#formPop li {
+    font-size: 25px;
+}
 
 /* ----------- Header Styles ---------------*/
 #logo {
     margin: 0;
-    /*min-width: 100vw;*/
 }
 
 img {
@@ -20,18 +41,15 @@ header li {
     display: block;
     margin: 20px;
     text-align: center;
-
 }
 
 header li a {
     text-decoration: none;
     padding: 20px;
     font-size: 25px;
-
 }
 
 header li a:hover {
-
     font-size: 2.5rem;
     color: #1EE196;
     padding-bottom: 20px;
@@ -72,7 +90,6 @@ footer {
     letter-spacing: 1.5px;
 
 }
-
 
 /*----------- Home Page Styles -----------*/
 
@@ -151,14 +168,12 @@ footer {
     padding: 6px;
     font-size: 25px;
     line-height: 2;
-
 }
 
 .estimate {
     background-color: #50def0;
     text-align: center;
 }
-
 
 .estimate h2 {
     margin-top: 20px;
@@ -201,7 +216,6 @@ footer {
 }
 
 #servThree ul li {
-
     display: block;
     text-decoration: none;
     padding: 3px;
@@ -209,7 +223,6 @@ footer {
     line-height: 1.8;
 
 }
-
 
 #servFour {
     text-align: center;
@@ -227,9 +240,7 @@ footer {
     padding: 6px;
     font-size: 25px;
     line-height: 2;
-
 }
-
 
 /*--------- Contact Form on Contact Page --------------- */
 
@@ -366,11 +377,9 @@ section {
         padding: 0;
     }
 
-
     /* ----------- Header Styles ---------------*/
     #logo {
         margin: 0;
-        /*min-width: 100vw;*/
     }
 
     img {
@@ -382,18 +391,15 @@ section {
         display: block;
         margin: 20px;
         text-align: center;
-
     }
 
     header li a {
         text-decoration: none;
         padding: 20px;
         font-size: 25px;
-
     }
 
     header li a:hover {
-
         font-size: 2.5rem;
         color: #1EE196;
         padding-bottom: 20px;
@@ -425,18 +431,13 @@ section {
 
     /*----------- Home Page Styles ----------------*/
 
-
     #service-cards {
         text-align: center;
         margin: 40px;
     }
 
-
-
     .images {
         width: 90vw;
-        /*height: 100%;*/
-
     }
 
     #service-cards h1 {
@@ -471,10 +472,6 @@ section {
 
     #sectTwo #costpic {
         display: none;
-        /*height: 40vh;
-            width: 40vw;
-            object-fit: cover;
-            object-position: bottom;*/
     }
 
     #sectTwo p {
@@ -492,7 +489,6 @@ section {
     }
 
     #servOne ul li {
-
         display: block;
         text-decoration: none;
         padding: 6px;
@@ -518,12 +514,10 @@ section {
     }
 
     .estimate form label {
-
         padding: 10px;
     }
 
     .estimate form input {
-
         padding: 10px;
     }
 
@@ -543,21 +537,17 @@ section {
     }
 
     #servThree ul li {
-
         display: block;
         text-decoration: none;
         padding: 6px;
         font-size: 25px;
         line-height: 2;
-
     }
-
 
     #servFour {
         text-align: center;
         height: 40vh;
         background-color: #1ECBE1;
-
     }
 
     #servFour h2 {
@@ -565,7 +555,6 @@ section {
     }
 
     #servFour ul li {
-
         display: block;
         text-decoration: none;
         padding: 6px;
@@ -573,9 +562,6 @@ section {
         line-height: 2;
 
     }
-
-
-
 
     /*----------- Accordian Section of the Contact Page -----------------*/
     section {
@@ -646,8 +632,6 @@ section {
     }
 }
 
-
-
 /*-----------Medium Sized Screens ----------*/
 @media screen and (min-width:700px) {
 
@@ -675,8 +659,6 @@ section {
 
     }
 
-
-
     #logo img {
         height: 200px;
         width: 200px;
@@ -696,12 +678,9 @@ section {
         color: #fff;
         padding: 15px;
         transition: .3 ease;
-
-
     }
 
     header li a:hover {
-
         font-size: 2.5rem;
         color: #1EE196;
         padding-bottom: 20px;
@@ -714,10 +693,6 @@ section {
         display: flex;
         align-items: flex-end;
     }
-
-    ;
-
-
 
     #header-image {
         /*top: 10px;*/
@@ -742,8 +717,6 @@ section {
         background-color: #1ECBE1;
         border: solid 20px #1ee196;
         padding: 20px;
-
-
     }
 
     h1 {
@@ -761,14 +734,10 @@ section {
 
     /*----------- Home Page Styles ----------------*/
 
-
-
     #service-cards {
         text-align: center;
         margin: 40px;
     }
-
-
 
     .images {
         width: 90vw;
@@ -776,16 +745,11 @@ section {
         position: relative;
     }
 
-
-
     .service-point {
-        /*display: flex;*/
-
         justify-content: space-around;
         padding: 10px;
         position: absolute;
         inset: 0;
-
         transition: 2s;
         width: 90vw;
         height: 90vh;
@@ -803,10 +767,7 @@ section {
         background-color: black;
         border-radius: 12px;
         box-shadow: 0 0 40px #000;
-
     }
-
-
 
     .service-point h2 {
         border: solid 18px #1ECBE1;
@@ -817,7 +778,6 @@ section {
         height: 360px;
         align-self: center;
         box-shadow: 0 0 40px #000;
-
         transform: translateX(-20%);
     }
 
@@ -830,27 +790,18 @@ section {
         background-color: #1ECBE1;
         line-height: 1.5;
         padding: 20px;
-
-
     }
 
     #sectTwo h2 {
         font-size: 2.5rem;
         text-align: center;
         background-color: white;
-
         margin: 20px;
         padding: 60px;
     }
 
     #sectTwo #costpic {
         display: none;
-        /*object-fit: cover;
-            object-position: bottom;
-            /*height: 60%;
-            width: 60%;
-            padding: 60px;*/
-
     }
 
     #sectTwo p {
@@ -917,7 +868,219 @@ section {
 
     /*-----------------  Services page ----------------*/
 
+    .wrapper {
+        display: flex;
+        justify-content: space-around;
+        flex-flow: wrap;
+        margin: 20px 0px 0px 100px;
+    }
 
+    .estimate {
+        display: flex;
+        flex-direction: column;
+        padding: 30px 200px 30px 200px;
+        margin: 0 auto;
+        background-color: #1E6AE1;
+    }
+
+    .estimate form {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (min-width:1000px) {
+
+    *::before,
+    *::after {
+        box-sizing: border-box;
+    }
+
+    body {
+        margin: 0;
+    }
+
+    #top-header {
+        display: flex;
+        background-color: #1E6AE1;
+        justify-content: space-between;
+    }
+
+    header li {
+        display: inline;
+        margin: 20px;
+        padding-left: 45px;
+    }
+
+    header li a {
+        text-decoration: none;
+        font-size: 3.5rem;
+        color: #fff;
+        padding: 20px;
+        transition: .3 ease;
+    }
+
+    header li a:hover {
+        font-size: 4.5rem;
+        color: #1EE196;
+        padding-bottom: 20px;
+        background-color: #fff;
+        border-radius: 9px;
+        margin-bottom: 60px;
+    }
+
+    #header-image {
+        position: relative;
+    }
+
+
+    #header-image img {
+        width: 100%;
+
+    }
+
+    #image-text {
+        position: absolute;
+        top: 45%;
+        left: 70%;
+        font-family: 'Roboto';
+        color: #fff;
+        transform: translate(-30%, -30%);
+        text-align: center;
+        font-size: 3rem;
+        background-color: #1ECBE1;
+        border: solid 20px #1ee196;
+        padding: 20px;
+
+
+    }
+
+    #service-cards .container .images {
+        width: 90vw;
+        height: 90vh;
+        padding: 20px;
+        position: relative;
+    }
+
+    .service-point {
+        transition: 2s;
+    }
+
+    .service-point img {
+        /*display: block;*/
+        /*width: 360px;
+            height: 360px;*/
+        object-fit: cover;
+        object-position: center;
+        /*padding: 20px;
+            margin: 20px;*/
+        background-color: black;
+        border-radius: 12px;
+        box-shadow: 0 0 40px #000;
+
+    }
+
+
+
+    .service-point h2 {
+        border: solid 18px #1ECBE1;
+        border-radius: 12px;
+        padding: 20px;
+        margin: 0px;
+        width: 360px;
+        height: 360px;
+        align-self: center;
+        box-shadow: 0 0 40px #000;
+
+        transform: translateX(-20%);
+    }
+
+    /*----------- Section Two of Home Page --------- */
+
+    #sectTwo {
+        display: flex;
+        /*justify-content: space-evenly;*/
+        background-color: white;
+        padding: 20px;
+        width: 90%;
+    }
+
+
+    #sectTwo #costpic {
+        display: none;
+    }
+
+    #sectTwo>h2 {
+        font-size: 46px;
+        text-align: center;
+        background-color: #50def0;
+        color: white;
+        border-radius: 12px;
+        padding: 40px;
+        margin: 60px 20px;
+
+    }
+
+    #bk {
+        background-color: white;
+    }
+
+    #about {
+        padding: 40px;
+        text-align: center;
+        line-height: 1.5;
+    }
+
+    /*----------- Accordian Section of the Contact Page -----------------*/
+    section {
+        min-height: 100vh;
+        width: 80%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #1E6AE1;
+    }
+
+    .title {
+        margin: 2rem 0rem;
+    }
+
+    .faq {
+        max-width: 700px;
+        margin-top: 2rem;
+        padding-bottom: 1rem;
+        border-bottom: 2px solid #fff;
+        cursor: pointer;
+    }
+
+    .question {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .question h3 {
+        font-size: 1.8rem;
+    }
+
+    .answer {
+        max-height: 0;
+        overflow: hidden;
+        transition: 1.4s ease;
+    }
+
+    .answer p {
+        padding-top: 1rem;
+        line-height: 1.6;
+        font-size: 1.4rem;
+    }
+
+    .faq.active .answer {
+        max-height: 300px;
+    }
+
+    /*-----------------  Services page ----------------*/
 
     .wrapper {
         display: flex;
@@ -930,385 +1093,56 @@ section {
     .estimate {
         display: flex;
         flex-direction: column;
-        padding: 30px 200px 30px 200px;
         margin: 0 auto;
-
         background-color: #1E6AE1;
 
     }
 
-
     .estimate form {
         display: flex;
         flex-direction: column;
-        /*
-    align-items: center;
-    justify-content: space-between;
-    line-height: 1.6;
-    margin: 2px;
-    padding: 2px;
-    border-bottom: 2px solid #fff;
-    color: #fff;
-    font-size: 1.6rem;
-    background-color: #1ECBE1;
+    }
+
+    /*----------- Project Page Styles ------------*/
+
+    #about {
+        padding: 20px;
+        box-shadow: 0px 10px 30px #1E6AE1;
+    }
+
+    #about h2 {
+        font-size: 36px;
+    }
+
+    #about p {
+        font-size: 25px;
+    }
 
 
+    .cont {
+        padding: 20px;
+        height: 50vh;
+    }
 
-}*/
-        /*
-#test {
-    width: 20px;
-    height: 20px;
-    margin: 2px;
-    color: #fff;
+    .cont h2 {
+        padding: 20px;
+        font-size: 36px;
+        text-align: center;
+    }
+
+    .cont p {
+        padding: 20px;
+        font-size: 25px;
+        text-align: center;
+    }
+
+    #second {
+        background-color: #50def0;
+        color: white;
+    }
+
+    #third {
+        background-color: #50def0;
+        color: white;
+    }
 }
-*/
-        /*
-.estimate form input {
-    padding: 4px;
-    font-size: 16px;
-    width: 100%;
-    margin: 6px;
-}*/
-
-    }
-
-
-    @media screen and (min-width:1000px) {
-
-        *::before,
-        *::after {
-            box-sizing: border-box;
-        }
-
-        body {
-            margin: 0;
-
-        }
-
-        #top-header {
-            display: flex;
-            background-color: #1E6AE1;
-            justify-content: space-between;
-        }
-
-        /*
-        #logo {
-            height: 200px;
-
-        }
-
-        #logo img {
-            height: 200px;
-        }
-*/
-        header li {
-            display: inline;
-            margin: 20px;
-            padding-left: 45px;
-
-        }
-
-        header li a {
-            text-decoration: none;
-            font-size: 3.5rem;
-            color: #fff;
-            padding: 20px;
-            transition: .3 ease;
-
-
-        }
-
-        header li a:hover {
-
-            font-size: 4.5rem;
-            color: #1EE196;
-            padding-bottom: 20px;
-            background-color: #fff;
-            border-radius: 9px;
-            margin-bottom: 60px;
-
-        }
-
-        /*
-        nav {
-            display: flex;
-            align-items: flex-end;
-
-        }
-*/
-        #header-image {
-            position: relative;
-        }
-
-
-        #header-image img {
-            width: 100%;
-
-        }
-
-        #image-text {
-            position: absolute;
-            top: 45%;
-            left: 70%;
-            font-family: 'Roboto';
-            color: #fff;
-            transform: translate(-30%, -30%);
-            text-align: center;
-            font-size: 3rem;
-            background-color: #1ECBE1;
-            border: solid 20px #1ee196;
-            padding: 20px;
-
-
-        }
-
-        /*
-        h1 {
-            font-size: 4.5rem;
-        }
-
-        
-        h2 {
-            font-size: 3.5rem;
-        }
-
-        p {
-            font-size: 22px;
-            text-align: justify;
-        }
-
-        #service-cards {
-            text-align: center;
-
-        }
-*/
-        #service-cards .container .images {
-            width: 90vw;
-            height: 90vh;
-            padding: 20px;
-            position: relative;
-        }
-
-
-
-        .service-point {
-            transition: 2s;
-        }
-
-        .service-point img {
-            /*display: block;*/
-            /*width: 360px;
-            height: 360px;*/
-            object-fit: cover;
-            object-position: center;
-            /*padding: 20px;
-            margin: 20px;*/
-            background-color: black;
-            border-radius: 12px;
-            box-shadow: 0 0 40px #000;
-
-        }
-
-
-
-        .service-point h2 {
-            border: solid 18px #1ECBE1;
-            border-radius: 12px;
-            padding: 20px;
-            margin: 0px;
-            width: 360px;
-            height: 360px;
-            align-self: center;
-            box-shadow: 0 0 40px #000;
-
-            transform: translateX(-20%);
-        }
-
-        /*----------- Section Two of Home Page --------- */
-
-        #sectTwo {
-            display: flex;
-            /*justify-content: space-evenly;*/
-            background-color: white;
-            padding: 20px;
-            width: 90%;
-        }
-
-
-        #sectTwo #costpic {
-            display: none;
-        }
-
-        #sectTwo>h2 {
-            font-size: 46px;
-            text-align: center;
-            background-color: #50def0;
-            color: white;
-            border-radius: 12px;
-            padding: 40px;
-            margin: 60px 20px;
-
-        }
-
-        #bk {
-            background-color: white;
-        }
-
-        #about {
-            padding: 40px;
-            text-align: center;
-            line-height: 1.5;
-        }
-
-        /*----------- Accordian Section of the Contact Page -----------------*/
-        section {
-            min-height: 100vh;
-            width: 80%;
-            margin: 0 auto;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            background-color: #1E6AE1;
-        }
-
-        .title {
-            margin: 2rem 0rem;
-        }
-
-        .faq {
-            max-width: 700px;
-            margin-top: 2rem;
-            padding-bottom: 1rem;
-            border-bottom: 2px solid #fff;
-            cursor: pointer;
-        }
-
-        .question {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
-
-        .question h3 {
-            font-size: 1.8rem;
-        }
-
-        .answer {
-            max-height: 0;
-            overflow: hidden;
-            transition: 1.4s ease;
-        }
-
-        .answer p {
-            padding-top: 1rem;
-            line-height: 1.6;
-            font-size: 1.4rem;
-        }
-
-        .faq.active .answer {
-            max-height: 300px;
-        }
-
-
-        /*-----------------  Services page ----------------*/
-
-
-
-        .wrapper {
-            display: flex;
-            justify-content: space-around;
-            flex-flow: wrap;
-            margin: 20px 0px 0px 100px;
-        }
-
-
-        .estimate {
-            display: flex;
-            flex-direction: column;
-            margin: 0 auto;
-
-            /*align-items: center;*/
-            background-color: #1E6AE1;
-
-        }
-
-
-        .estimate form {
-            display: flex;
-            flex-direction: column;
-            /*
-        align-items: center;
-        justify-content: space-between;
-        line-height: 1.6;
-        margin: 2px;
-        padding: 2px;
-        border-bottom: 2px solid #fff;
-        color: #fff;
-        font-size: 1.6rem;
-        background-color: #1ECBE1;
-    */
-
-
-        }
-
-        /*----------- Project Page Styles ------------*/
-
-        #about {
-            padding: 20px;
-            box-shadow: 0px 10px 30px #1E6AE1;
-        }
-
-        #about h2 {
-            font-size: 36px;
-        }
-
-        #about p {
-            font-size: 25px;
-        }
-
-
-        .cont {
-            padding: 20px;
-            height: 50vh;
-        }
-
-        .cont h2 {
-            padding: 20px;
-            font-size: 36px;
-            text-align: center;
-        }
-
-        .cont p {
-            padding: 20px;
-            font-size: 25px;
-            text-align: center;
-        }
-
-        #second {
-            background-color: #50def0;
-            color: white;
-        }
-
-        #third {
-            background-color: #50def0;
-            color: white;
-        }
-
-        /*
-    #test {
-        width: 20px;
-        height: 20px;
-        margin: 2px;
-        color: #fff;
-    }
-    */
-        /*
-    .estimate form input {
-        padding: 4px;
-        font-size: 16px;
-        width: 100%;
-        margin: 6px;
-    }*/
-
-    }
