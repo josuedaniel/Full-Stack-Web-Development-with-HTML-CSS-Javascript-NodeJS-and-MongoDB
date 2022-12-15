@@ -1,3 +1,8 @@
+
+
+
+
+
 /* -------- Services Free Estimate Form ---------- */
 
 function estIt() {
@@ -43,47 +48,6 @@ faqs.forEach((faq) => {
     });
 });
 
-
-
-/*------- Home Page Slider ---------------- */
-/* Slider based off the youtube tutorial Automatic Image Slider Using Javascript by Ranjan-Beginners Guide. This will provide slider functionality for the area directly beneath the header element on db.html. It was challenging to understand how to grab each div service-point and apply the styling required for the slider to work without changing other parts of the sites unintentionally. Also I had to be extra careful with my css and making sure it did not conflict 
-
-*/
-// Set first index to 0
-var firstIndex = 0;
-
-// slider function
-function automaticSlide() {
-
-    // Change slide every 4 seconds 
-    setTimeout(automaticSlide, 4000);
-    var divs;
-
-    // Get the service-point divs and store them in the const img
-    const img = document.getElementsByClassName('service-point');
-
-    // create a divs index of each service-point div
-    for (divs = 0; divs < img.length; divs++) {
-
-        // Give each service-point div the display:none style attribute
-        img[divs].style.display = "none";
-    }
-
-    // Incremented firstIndex each time the for loop runs,
-    firstIndex++;
-
-    // Reset firstIndex to 1 if it's bigger than img.length
-    if (firstIndex > img.length) {
-        firstIndex = 1;
-    }
-
-    // Change the style to display:flex for each div at  firstIdex - 1
-    img[firstIndex - 1].style.display = "flex";
-}
-
-// Call that slide
-automaticSlide();
-
 /*--------------- Contact Page: Contact Form --------------*/
 // Grab the different elements by their id's and store the in const values
 const nameEl = document.querySelector('#name');
@@ -98,7 +62,7 @@ form.addEventListener('submit', function (e) {
     // prevent the form from submitting
     e.preventDefault();
     // 
-})
+});
 
 const isRequired = value => value === '' ? false : true;
 
@@ -247,6 +211,10 @@ form.addEventListener('submit', function (e) {
     // Prevent the form from submitting
     e.preventDefault();
 
+    // Add a pop up confirming contact form submission
+    let features = 'height=600, width=450';
+    let url = 'popup.html';
+    window.open(url, 'popup', features);
 
     // validate forms
 
@@ -305,12 +273,4 @@ form.addEventListener('input', debounce(function (e) {
             break;
     }
 }));
-
-
-
-
-
-
-
-
 
